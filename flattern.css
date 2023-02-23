@@ -1,0 +1,213 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri light;
+}
+html,body{
+    width: 100%;
+}
+
+/* Header Starts */
+header
+{
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.399);
+    padding: 2px 3px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header-contact, .header-icon
+{
+    border: 2px solid red;
+    margin: 2px 5px;
+    width: 600px;
+}
+.header-icon
+{
+    text-align: right;
+}
+.header-icon i{
+    margin-left: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.header-icon a
+{
+   
+    text-decoration: none;
+   
+}
+.header-contact a
+{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+
+}
+.header-contact a i
+{
+    color: orangered;
+    font-size: 15px;
+}
+/* header ends */
+
+/*  Nav Bar starts */
+nav
+{
+    background-color: aquamarine;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+nav ul
+{
+    display: inline-block;
+    margin-left: 275px;
+}
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+nav ul li a:hover
+{
+    color: orangered;
+}
+nav .logo
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin-left: 90px;
+}
+/* Nav Bar Ends */
+
+/* Banner Starts */
+.banner
+{
+    background-color: red;
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(211, 211, 211, 0.063),rgba(211, 211, 211, 0.54)), 
+    url(https://bootstrapmade.com/demo/templates/Flattern/assets/img/slide/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.banner-content
+{
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+    width: 750px;
+    padding: 40px 40px 30px 13px;
+    border-top: 5px solid orangered;
+
+}
+.banner-content .btn 
+{
+    padding: 10px 30px;
+    width: 200px;
+    margin: 5px auto;
+}
+.banner-content a
+{
+    color: white;
+    border: 2px solid orangered;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color .3s;
+}
+.banner-content a:hover 
+{
+    background-color: orangered;
+}
+.banner-content p
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.banner-content h1
+{
+    font-size: 30px;
+}
+/* Banner Ends */
+
+/* Request Starts */
+.request
+{
+    background-color: rgba(211, 211, 211, 0.34);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.reuest-text
+{
+    /* border: 2px solid red; */
+    width: 900px;
+    margin: 20px;
+    text-align: center;
+}
+.reuest-text h1
+{
+    font-size: 35px;
+}
+
+.reuest-text p
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.reuest-btn
+{
+    border: 2px solid red;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: background-color .3s,color .3s;
+    letter-spacing: 1px;
+}
+
+.reuest-btn a
+{
+    border: 2px solid orangered;
+    background-color: white;
+    text-decoration: none;
+    color: orangered;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+
+}
+.reuest-btn a:hover 
+{
+    background-color: orangered;
+    color: white;
+}
+
+/* Request Ends */

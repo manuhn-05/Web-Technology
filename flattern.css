@@ -9,49 +9,13 @@ html,body{
     width: 100%;
 }
 
-/* Header Starts */
-header
-{
-    border: 2px solid black;
-    background-color: rgba(128, 128, 128, 0.399);
-    padding: 2px 3px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.header-contact, .header-icon
-{
-    border: 2px solid red;
-    margin: 2px 5px;
-    width: 600px;
-}
-.header-icon
-{
-    text-align: right;
-}
-.header-icon i{
-    margin-left: 10px;
-    color: gray;
-    font-size: 20px;
-}
-.header-icon a
-{
-   
-    text-decoration: none;
-   
-}
-.header-contact a
-{
-    margin-left: 50px;
-    text-decoration: none;
-    color: black;
 
-}
-.header-contact a i
+
+/* .header-contact a i
 {
     color: orangered;
     font-size: 15px;
-}
+} */
 /* header ends */
 
 /*  Nav Bar starts */
